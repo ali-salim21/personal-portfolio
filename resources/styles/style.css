@@ -21,18 +21,19 @@ header h1 {
 
 nav {
     position: relative;
-    left: 40rem;
-    margin-top: 2rem;
-    margin-left: 4rem;
+    right: 6rem;
+    margin-top: 3rem;
+    margin-left: auto;
 }
 
 nav a {
     padding: .5em .5em;
     border-radius: 10px;
-    background-color: rgb(3, 151, 151);
+    background-color: black;
 
+    font-size: 1.5rem;
     text-decoration: none;
-    color: aliceblue;
+    color: white;
 }
 
 main {
