@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ nav a {
 
 main {
     display: inline-block;
-    margin: 4rem 6rem 0;
+    margin: 4rem 18rem 0;
 }
 
 main h2 {
@@ -68,24 +68,50 @@ main p {
 .about-me img {
     display: inline-block;
     position: relative;
-    width: 20rem;
+    width: 13rem;
 }
 
-.skils {
-    margin: 2rem 0 2rem;
+.skills {
+    margin: 4rem 0 4rem;
 }
 
-.skils img {
+.skills img {
     margin: 0 1rem 0;
+    width: 120px;
+    height: 120px;
+
 }
 
-.projects {
-    margin: 2rem 0 2rem;
+#projects {
+    margin: 4rem 0 4rem;
+    font-size: 1.5rem;
+}
+
+.contact {
+    width: 60rem;
+    min-width: 40rem;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.media {
+    margin: 3rem 9rem 0;
+}
+
+.contact img {
+    display: inline-block;
+    width: 150px;
+    margin: 0 2rem;
+    border-radius: 100%;
 }
 
 footer {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    position: relative;
+    top: 20rem;
 }
 
 footer .heart {
