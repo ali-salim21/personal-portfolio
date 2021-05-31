@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 * {
     margin: 0;
+    padding: 0;
 }
 
 html {
@@ -36,11 +37,22 @@ nav a {
 
 main {
     display: inline-block;
-    margin: 4rem 6rem;
+    margin: 4rem 6rem 0;
+}
+
+main h2 {
+    font-size: 2.5rem;
+}
+
+main h3 {
+    font-size: 2rem;
+}
+
+main p {
+    font-size: 1.5rem;
 }
 
 .about-me {
-    width: 60rem;
     margin-top: 1rem;
 
     text-align: justify;
@@ -50,13 +62,13 @@ main {
 
 .about-me p {
     display: inline-block;
-    width: 20rem;
+    width: 40rem;
 }
 
 .about-me img {
     display: inline-block;
     position: relative;
-    width: 30rem;
+    width: 20rem;
 }
 
 .skils {
@@ -69,4 +81,13 @@ main {
 
 .projects {
     margin: 2rem 0 2rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer .heart {
+    color: red;
 }
