@@ -35,15 +35,38 @@ nav a {
 }
 
 main {
+    display: inline-block;
     margin: 4rem 6rem;
-    width: 50rem;
 }
 
-article {
-    display: flex;
+.about-me {
+    width: 60rem;
+    margin-top: 1rem;
+
+    text-align: justify;
+    word-spacing: 3px;
 
 }
 
-article img {
-    width: 300px;
+.about-me p {
+    display: inline-block;
+    width: 20rem;
+}
+
+.about-me img {
+    display: inline-block;
+    position: relative;
+    width: 30rem;
+}
+
+.skils {
+    margin: 2rem 0 2rem;
+}
+
+.skils img {
+    margin: 0 1rem 0;
+}
+
+.projects {
+    margin: 2rem 0 2rem;
 }
