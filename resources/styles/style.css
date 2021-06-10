@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -81,6 +82,10 @@ main p {
 #projects {
     margin: 4rem 0 4rem;
     font-size: 1.5rem;
+}
+
+#projects img {
+    width: 600px;
 }
 
 .contact {
