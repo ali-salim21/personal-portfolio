@@ -55,11 +55,17 @@ main p {
 }
 
 .about-me {
-    max-width: 1000px;
+    min-width: 1000px;
     margin-top: 1rem;
     text-align: justify;
     word-spacing: 3px;
     margin: 0 2rem;
+}
+
+.about-me article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .about-me p {
@@ -68,9 +74,8 @@ main p {
 }
 
 .about-me img {
-    display: inline-block;
-    position: relative;
     width: 13rem;
+    margin: 0 1rem;
 }
 
 #skills {
@@ -112,6 +117,7 @@ main p {
 .contact p {
     text-align: center;
     font-size: 2rem;
+    margin: 0 2rem;
 }
 
 .media {
@@ -126,9 +132,17 @@ main p {
 }
 
 footer {
+    /*position: absolute;
+    left: 0;
+    bottom: 0;*/
+    margin-top: 4rem;
+    height: 50px;
+    width: 100%;
+    color:#FFFFFF; 
+    background: #000000;
+    font-size: 1.5em;
     text-align: center;
-    position: relative;
-    top: 10rem;
+    line-height: 50px;
 }
 
 footer .heart {
